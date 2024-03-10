@@ -1,0 +1,303 @@
+{
+    "course-code": "seattle-code-python-401d22",
+    "lectures": {
+        "module-01": {
+            "class-01a": {
+                "title": "Course Introduction A",
+                "link": "https://zoom.us/rec/share/yvTLiqQ2WzMSzufp0kl8KISayhmUgL-zRXjKBKzO5rPG8GILBIhnQKzHOEInyCZw.49HGbtRnGQHnKVbf",
+                "date": 1686585691000,
+                "instructor": "Roger Huba"
+            },
+            "class-01b": {
+                "title": "Course Introduction B",
+                "link": "https://zoom.us/rec/share/VPgn0Xxf-tmiGJvGhL8xqBulkQzDdcZduCfgtnHLHzcVOdP7HcB-jXwkzJLhPwA.Cfr-Bg6S55EYZ-VH",
+                "date": 1686610916000,
+                "instructor": "Roger Huba"
+            },
+            "class-02": {
+                "title": "Modules and Tests",
+                "link": "https://zoom.us/rec/share/BXY65yJCe5oN3CVJn1GmXwKspFk9iOd6ZGNkBOD86x92M4DDY2OgoF_P3sVjEX4z.hocFXnlLH-MM9Xxb",
+                "date": 1686758638000,
+                "instructor": "Roger Huba"
+            },
+            "class-03": {
+                "title": "FileIO / Exceptions",
+                "link": "https://zoom.us/rec/share/C9srs0nsKvQpRaxWwhaFFwkImuUQQpvV3LggAVBIqKrrJo2bx2QaYV8c6XesD3HY.yo3qbxRqHd5vN9Vf%20",
+                "date": 1686758638000,
+                "instructor": "Roger Huba"
+            },
+            "class-04": {
+                "title": "Classes & Fixtures",
+                "link": "https://zoom.us/rec/share/SuRM5UB1BqPeTW9I8sL3hB689IYWBZX3zRMELPFvZczAMdpmUIbrWtTkIg3vpunX.cVMO78NX_50QMWAr",
+                "date": 1686844942000,
+                "instructor": "Roger Huba"
+            },
+            "class-05-ccw": {
+                "title": "Resume Workshop",
+                "link": "https://zoom.us/rec/share/GAN3opkdmCG7YnYvz3U7H3fyjedCT2XKqlB16XOdFPo-6-IZomtArS-ssuYE2FRH._L4a5_6qSiSYYD3M",
+                "date": 1686931433000,
+                "instructor": "JB Tellez"
+            },
+            "class-05-dsa": {
+                "title": "Linked Lists",
+                "link": "https://zoom.us/rec/share/shuIw841ad6b2fd7Mc7uXWB9GmwiMKncwWoyuTRuxt48Y2U9GrAvYcvgTXinqy4f.qRLfOc4ss_WHYXbV",
+                "date": 11686947498000,
+                "instructor": "Roger Huba"
+            }
+        },
+        "module-02": {
+            "class-06": {
+                "title": "Ten Thousand Game 1",
+                "link": "https://zoom.us/rec/share/9xsM9t1VQDUSCljSBxOG2p4k-pcny4MZuXjOqaHqX_q24TAEwhatKjys1lCLrb-O.3Cj3WDU1DrPdb-O7",
+                "date": 1672128000.0,
+                "instructor": "Adam Owada / JB Tellez"
+            },
+            "class-07": {
+                "title": "Ten Thousand 2",
+                "link": "https://zoom.us/rec/share/Daf_ab_bFP83AA64VhtUZM1WiEs8y6QU2KrTw_FBPVfVviR2uJdIBA6Dsozg52aj.kG-daPEqIZhMa0bA%C2%A0",
+                "date": 1672214400.0,
+                "instructor": "Adam Owada / JB Tellez"
+            },
+            "class-08": {
+                "title": "Ten Thousand 3",
+                "link": "https://zoom.us/rec/share/xQdsmgrjn6IIMxZXuAmVK3e0FD5pkzZ5H9BosBmqYSy6Kdxq56ZVDh5TBoM9q7wQ.shElLQvuKwZawws7%C2%A0",
+                "date": 1672300800.0,
+                "instructor": "Adam Owada / JB Tellez"
+            },
+            "class-09": {
+                "title": "Ten Thousand 4",
+                "link": "https://zoom.us/rec/share/_Jh4h5cLVubxY7vuzlvfYY-4HbvmeAIMJ_KwqhcjOJEkpbyK0zOEnQsnHEGS62-f.gIQGWt16I7sMn10o",
+                "date": 1676534400.0,
+                "instructor": "Adam Owada / JB Tellez"
+            },
+            "class-10-dsa": {
+                "title": "Stacks & Queues",
+                "link": "https://zoom.us/rec/share/0RehUZ6FZGFou5ZWkzqVrD79xUx-X-jbv1QRQY3u3i1oLBVQ2RWVjJAPdF6KL9am.4_AHYcvo1Unnyi66",
+                "date": 1687552234000,
+                "instructor": "Roger Huba"
+            },
+            "class-10-ccw": {
+                "title": "Personal Pitch Workshop",
+                "link": "https://zoom.us/rec/share/xDVa-4hvKxq6mfY0fQILHuYiFgPIFSLgobZDNBua-zOc4T_u4zSHuwEJRdtTYJtz.hezx8ZIrEB3pGO3Y",
+                "date": 1687536099000,
+                "instructor": "Brook Riggio"
+            }
+        },
+        "module-03": {
+            "class-11": {
+                "title": "Intro to Data Science with Numpy",
+                "link": "https://zoom.us/rec/share/C_1-wYLcHPhQ2c9ko612HVi1BbwQ8tYkpNSCbKWEM-4kp976ePCOZbT8V_0M4bNX.8FGJRRSlPWhlcSpJ",
+                "date": 1687795325000,
+                "instructor": "Roger Huba"
+            },
+            "class-12": {
+                "title": "Data Analysis with Pandas",
+                "link": "https://zoom.us/rec/share/GHjqNjEB0qafZZzuCWwG14_XkUWh4USWTdYrhDwZUPQDrqfu9qNThH1WYC-FHnVt.XXxCfaK1nkM45SjQ",
+                "date": 1687883517000,
+                "instructor": "Roger Huba"
+            },
+            "class-13": {
+                "title": "Linear Regressions",
+                "link": "https://zoom.us/rec/share/dcimFyQc3VbwRD2QvXAMLIh8-deyQRWPYAu6HiGtjlit3hV4Dz1PjrVjJlIbm1LT.W9hGMV2ZVJN5NG3W",
+                "date": 1687968039000,
+                "instructor": ""
+            },
+            "class-14": {
+                "title": "Data Visualization",
+                "link": "https://zoom.us/rec/share/A3w0ZEzOW40hVshI9D1OZYwy0dO3FhVhL_EpjRaSDqZMDvbac3dIYTQ2CnHqr5EG.ry_VmQN5x-fqlpFc",
+                "date": 1688054792000,
+                "instructor": "Roger Huba"
+            },
+            "class-15-dsa": {
+                "title": "Trees (Last Hour)",
+                "link": "https://zoom.us/rec/share/SF1HUPHVjhRSo1jZNgCxRZfJD9LgBcQB3xScaDXjwTuHMeUl9koFyorXGNjmboDZ.Rscp-ck0DhGimFuX)",
+                "date": 1688140851000,
+                "instructor": "Roger Huba"
+            },
+            "class-15-ccw": {
+                "title": "Job Search Workshop (First 2 Hours",
+                "link": "https://zoom.us/rec/share/SF1HUPHVjhRSo1jZNgCxRZfJD9LgBcQB3xScaDXjwTuHMeUl9koFyorXGNjmboDZ.Rscp-ck0DhGimFuX",
+                "date": 1688140851000,
+                "instructor": "Krysten Fassler"
+            }
+        },
+        "module-04": {
+            "class-16": {
+                "title": "Serverless Functions",
+                "link": "https://zoom.us/rec/share/LBBF-kLfjeLwf5pVqv5nHmZxdlcjTKdzw0lzpf84Euq3Wz-pxWvMrNjB55B2fDo.J305Cxiy_kR3pL3m",
+                "date": 1688400109000,
+                "instructor": "Roger Huba"
+            },
+            "class-17": {
+                "title": "Web Scraping",
+                "link": "https://zoom.us/rec/share/WOmR1OtwVCStmvZ10NXxzU6o0Xu76pZGZqNV8NT-0cW_V1NZZ20xOcxpXJaRFPLC.RQlgc7NLZckglLcx",
+                "date": 1673337600.0,
+                "instructor": "Adam Owada / JB Tellez"
+            },
+            "class-18": {
+                "title": "Cryptography",
+                "link": "https://zoom.us/rec/share/KBidVkd-oZdSloTI9sBfU2C9vaUvydfRVCn5cIpyVtAEhiPkN20a-N79f2SitgOn.EndGkEEol7qm94Il",
+                "date": 1688572904000,
+                "instructor": "Roger Huba"
+            },
+            "class-19": {
+                "title": "DevOps",
+                "link": "https://zoom.us/rec/share/M-_YBEokZgk7bcRrrc4mVmVBO9rnluMqdTU9TDpFgNyzxhrX3AsRSuXVrZt7Qmsy.19mmi8jCUrF-NTeB",
+                "date": 1688659328000,
+                "instructor": "Roger Huba"
+            },
+            "class-20": {
+                "title": "Project Kickoff",
+                "link": "https://zoom.us/rec/share/iXNvQKB4iixpQtI1b6T00J-Bgm_LnUmnlr6pazwHWSwlsr3xTn7UWDLQjgn9Z50.9_ozkfOOkNcHqq-j",
+                "date": 1688745635000,
+                "instructor": "Roger Huba"
+            }
+        },
+        "module-06": {
+            "class-26": {
+                "title": "Introduction to Django",
+                "link": "https://zoom.us/rec/share/Zk-RG7CyhLVZHsoeFXik1CasXfxhAoIMI2hLPSeoZyNSGlKeNWMkbNlilkX0X8hm.nBCPTCdUIgH08tub",
+                "date": 1689609706000,
+                "instructor": "Roger Huba"
+            },
+            "class-27": {
+                "title": "Django Models",
+                "link": "https://zoom.us/rec/share/7uJNF_4ZZ5f12auENDgi6lswMRH5aniR5NuxxnUs47ilU-lMYxIlNNTPu38F2mO3.eTMCbk-W5ScZCg_s",
+                "date": 1689696241000,
+                "instructor": "Roger Huba"
+            },
+            "class-28": {
+                "title": "Django CRUD and Forms",
+                "link": "https://zoom.us/rec/share/s7q4_G_Q_oNxyf-Jv_dtPk6wnvFcVeHtzUcvhc27CzmYwJx1-2hKHF_qToeZ2i8t.VmeplicInxpxYT4c",
+                "date": 1689782455000,
+                "instructor": "Roger Huba"
+            },
+            "class-29": {
+                "title": "DjangoX",
+                "link": "https://zoom.us/rec/share/ktDUDzBhVIu-ZFrGztRp_Nks4t_CfuxTCltnNIoBbUXav0FkroxVDc5zrcBHbZJg.PuiPu9kB_OmzsJ_A",
+                "date": 1689869161000,
+                "instructor": "Roger Huba"
+            },
+            "class-30-dsa": {
+                "title": "Hash Tables",
+                "link": "https://zoom.us/rec/share/2IgOJguUoT4cMjZsV1mnzUDKKnn3qM4H-NmyMyFTxOnmdAvwxpYheRfZHeuiEbI.C8EaFjRryBERbG8V",
+                "date": 1689955296000,
+                "instructor": "Roger Huba"
+            },
+            "class-30-ccw": {
+                "title": "Behavioral Interview Workshop",
+                "link": "https://zoom.us/rec/share/LRWoI_IhfRsLgDy780lKfn89QbTmTVvUkJ8fMYVSzR3gu_oUybKfFOWTvF79KYyf.NccsJ8_S0ZthCaHR",
+                "date": 1689973323000,
+                "instructor": "Krysten Fassler"
+            }
+        },
+        "module-07": {
+            "class-31": {
+                "title": "Django REST Framework & Docker",
+                "link": "https://zoom.us/rec/share/Q0W8zUBxevr3Hz6WoataIdiV0LPU2bJssbsWa3mKn5xY7nMN7w1Yqb5-ymE1x3Bj.7NbKpO-WK2eETzb4",
+                "date": 1690214496000,
+                "instructor": "Roger Huba"
+            },
+            "class-32": {
+                "title": "Permissions & Postgresql",
+                "link": "https://zoom.us/rec/share/FrR9tzQXaqE-uLk516rT2aiU1icIWtoC8hv8pNYU-VVeXnRKC_9VitmPU3AcAzME.Bo6MFG_VoEF17Sf8",
+                "date": 1690301022000,
+                "instructor": "Roger Huba"
+            },
+            "class-33": {
+                "title": "Authentication & Production Server",
+                "link": "https://zoom.us/rec/share/jggICoRav6NvvgN7h0HLXF2IIFau7jPlKKDSvwFXXASAKQmP8jogFBfkSYICvIn_.P8qC0Pu99Jvh0Lya",
+                "date": 1690387444000,
+                "instructor": "Roger Huba"
+            },
+            "class-34": {
+                "title": "Signup / External DataBase",
+                "link": "https://zoom.us/rec/share/wQSzyehSSv0y6RXLo_pLCTJjEOp3cmncOF1ATz20zapvzBZp0Ig2OTLmJaP2iCFm.d47SZmrVY4_MNWIu",
+                "date": 1690473777000,
+                "instructor": "Roger Huba"
+            },
+            "class-35-dsa": {
+                "title": "Graphs",
+                "link": "https://zoom.us/rec/share/oXBX8nXz2yjfTCQKouURflGua6cc3LM0l0ZNMV82Em8EcPeXL8A4Nz5CTwcrhak.xTrbrx_faPhaBD8D",
+                "date": 1690574416000,
+                "instructor": "Roger Huba"
+            },
+            "class-35-ccw": {
+                "title": "Technical Interviewing Workshop",
+                "link": "https://zoom.us/rec/share/ssIzYvAgPlBponS1W3d2Wzn46U5MZPV88JfKGLYq6vqDkV5DQwsyamqAtIRS1Zz5.whzmdABYWHjadaGq",
+                "date": 1690560092000,
+                "instructor": "Roger Huba"
+            }
+        },
+        "module-08": {
+            "class-36": {
+                "title": "DS&A Review",
+                "link": "https://zoom.us/rec/share/KD2lz66eqNiS1A9LqQmfVzA1yS6mSlEL1rzJe-pal1vrKzHEcxp0mf0BIGHXKAzR.qvhIV9T0QSGIVwFc",
+                "date": 1690819697000,
+                "instructor": "Roger Huba"
+            },
+            "class-37": {
+                "title": "React 1",
+                "link": "https://zoom.us/rec/share/6eA5AuaPBjssffp7VCPoU9t2BoFiS8YN1IhpChJvPNPuV9D7j1vEptgvEVnQVD-N.FNmt9s6qog236dbF",
+                "date": 1675756800.0,
+                "instructor": "Adam Owada / JB Tellez"
+            },
+            "class-38": {
+                "title": "React 2",
+                "link": "https://zoom.us/rec/share/Qg9OdKiVsdX0WRX6Pb22Y9dsBlIOhmv0LnscVnW5aNZ73gvzNt5tc7P0M2qwGh_F.Hsf__cqBwzNVrEoA%C2%A0",
+                "date": 1675843200.0,
+                "instructor": "Adam Owada / JB Tellez"
+            },
+            "class-39": {
+                "title": "Data Fetching / Authentication",
+                "link": "https://zoom.us/rec/share/LHvf_Ekw1qaMdNbzfn1U5UvnbCZ8cHInOIASUiqzWi0BuuZsVjyMW3ROnWdYR9k.jY052qJRmYPVXOyt",
+                "date": 1675929600.0,
+                "instructor": "Adam Owada / JB Tellez"
+            },
+            "class-40-dsa": {
+                "title": "Review",
+                "link": "https://zoom.us/rec/share/61O56SS4PPXEVTxgT7Ul61H_OlHD_Ur6B6tZyBT76reFASyT8pnDKIpEVaLrYJTK.fl7AVudud9EfZ-2b",
+                "date": 1676016000.0,
+                "instructor": "Adam Owada / JB Tellez"
+            },
+            "class-40-ccw": {
+                "title": "Personal Presentations",
+                "link": "https://zoom.us/rec/share/21NoM48XPEdA2ImdhwGonsccMA5_4hEPDOoe2K9gCSBA0b-UPes5rgMtOpqMU6xP.OaGI3kWIfv1iWIho",
+                "date": 1691164853000,
+                "instructor": "Danny Karlinsky / Roger Huba"
+            }
+        },
+        "module-09": {
+            "class-41": {
+                "title": "Deployment",
+                "link": "https://zoom.us/rec/share/sFNMXNxiWLF_wGB4T2niq2fIurFacrTfejQdUS1DK4lSYSDNgVp1vevzl82ifwYm.l5x7cVZo1KZZ5tFG",
+                "date": 1691424027000,
+                "instructor": "Roger Huba"
+            },
+            "class-42": {
+                "title": "Pythonisms",
+                "link": "https://zoom.us/rec/share/UxoiVpbik2AdsH0fcAt9ihugx9QPwL_qvu9-LT9Lk8npjq0q0SPFJ04o2vMIL3fG.s8A2UFukYQfT05gt",
+                "date": 1691510666000,
+                "instructor": "Roger Huba"
+            },
+            "class-43": {
+                "title": "Ethics",
+                "link": "https://zoom.us/rec/share/A2QNAwWy0xJhh_Xk2f3o6ouNjmIee71ONv9A_cn6qn_Fc8pigCAEUFTVwKO0d1D3.MBZD1SZENBmInJWX",
+                "date": 1691598683000,
+                "instructor": "Roger Huba"
+            },
+            "class-44": {
+                "title": "Open Source - No Lecture",
+                "link": "",
+                "date": 0,
+                "instructor": "Roger Huba"
+            },
+            "class-45": {
+                "title": "Project Kickoff",
+                "link": "https://zoom.us/rec/share/WJ0hmjgOExYEdwwqY2vSDIYK8PqsM3SIw4GYGgjNGyPDHLCbsbBDJENzlFpcEJHD.P5rNXoNb_FRN8cmL ",
+                "date": 1691769791000,
+                "instructor": "Roger Huba"
+            }
+        }
+    }
+}

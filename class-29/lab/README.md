@@ -1,54 +1,27 @@
-# Lab: DjangoX
+# LAB-29: Django REST Framework & Docker
+Learn how you can use Django REST Framework to create API and containerize it with Docker
+## Steps and Requirements
+### Django Part
+*  Create a Django project and called cars_store.
+*  Create a cars_api app.
+* The cars app should have a  Car model that have these fields:
+   - model field - (required)
+   - brand field - (required)
+   - price field - (required)
+   - is_bought field- (required)
+   - buyer_id field ( refer to a user) - (not required)
+   - buy_time field - (not required)
+   
+* Use REST Framework to create CRUD system.
+* base api uel: /api/v1/car_store
 
-## Overview
-
-It is quite common to set up your Django projects the same way every time.
-
-Some of those common tasks are...
-
-- Create a custom user
-- Configure static assets
-- Add authentication
-- Set up styling
-- Install common libraries
-- Wire up 3rd party development tools
-
-Repeating these steps over and over violates the DRY (Don't Repeat Yourself) rule. So pro developers usually create a skeleton application they use to start off their projects.
-
-Luckily for us, there's already a great example of such a skeleton - [DjangoX](https://github.com/wsvincent/djangox){:target="_blank"}
-
-## Feature Tasks and Requirements
-
-You have two choices:
-
-### Choice 1
-
-- Create a website using your own custom template.
-  - Click the `Use this template` button on home page of your own template repository.
-- Name your repo whatever you like.
-- Create a Django app of your choosing.
-- The specific functionality of the site is up to you but should have a model that makes use of `get_user_model`
-
-### Choice 2
-
-- Create a website using DjangoX as a template.
-  - Click the `Use this template` button on home page of DjangoX repository.
-- Name your repo whatever you like.
-- Create a Django app of your choosing.
-- The specific functionality of the site is up to you but should have a model that makes use of `get_user_model`
-- Delete these configuration files not needed for your project.
-  - Pipfile
-  - Pipfile.lock
-  - Dockerfile
-  - docker-compose.yml
-
-### User Acceptance Tests
-
-- Verify that your pages render as expected.
-
-Refer to [Lab Submission Instructions](../../../reference/submission-instructions/labs/){:target="_blank"} for detailed instructions.
-
-## Stretch
-
-- Add social authentication.
-- Add images to your site.
+### Docker Part
+- NOTE Refer to the class demo for built out Dockerfile and docker-compose.yml examples.
+- Update Dockerfile and docker-compose.yml if needed.
+## Test
+- No tests
+## Submission Instructions
+1. Create a new repo on Github called car-store
+2. Work on a lab-29 branch.
+3. After completing the lab, create a PR from your lab-29 branch to main then merge your code.
+4. Submit the PR link

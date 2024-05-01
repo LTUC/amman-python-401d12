@@ -1,43 +1,28 @@
-# Lab: Django REST Framework & Docker
+# LAB-31: Lab: Custom Users
 
-## Overview
+You are going to create a custom user and add static assets as well as an authentication.
+A powerful prepared skeleton will be provided - [DjangoX](https://github.com/wsvincent/djangox) that makes the life easy.
 
-Use Django REST Framework to create an API, then "containerize" it with Docker.
+## Lab requirements
 
-## Feature Tasks and Requirements
+1. Create a website using DjangoX template.
+2. Navigate through the provided link [DjangoX](https://github.com/wsvincent/django) then click on use this template button.
+3. Name your repo DjangoX.
+4. Clone your created repo.
+5. Create a virtual environment.
+6. Install common dependencies.
+7. Delete Not used files.
+8. Create a Django app of your choosing.
+9. Make sure to add list, create, detail and update view to your app.
 
-- Rebuild a custom version of `Things API` demo project from scratch.
-  - Replace `things_project` and `Thing` with your own application and model.
-  - Your model must have at least as many fields as demo's model.
-  - Your model must have one field that is a foreign key to user.
-  - **NOTE**: You are not required to build any templates for this lab.
+## Testing Requirements
 
-## Features - Docker
+- Add proper tests. 
 
-- **NOTE** Refer to the class demo for built out `Dockerfile` and `docker-compose.yml` examples.
-- Update `Dockerfile` and `docker-compose.yml` if needed.
+## Stretch
 
-## Stretch Goals
+Add images and more styling to your site.
 
-- Research using a production server vs. the built in development server.
-- Research using postgres instead of sqlite as database.
+## Submission Instructions
 
-## Implementation Notes
-
-- If you get an `allowed host` error examine the bug details and update code as needed.
-- When Docker installed and docker files are ready to go then run...
-  - $ docker compose up
-- To shut docker down enter `ctrl+c`
-- You'll learn a better way soon
-
-### User Acceptance Tests
-
-- Modify provided unit tests in demo to work for your project.
-
-## Configuration
-
-Create a virtual environment inside `drf-api`.
-
-Use the `drf-api` folder as the root of your project's git repository.
-
-Refer to [Lab Submission Instructions](../../../reference/submission-instructions/labs/){:target="_blank"} for detailed instructions.
+- Add the submission instructions

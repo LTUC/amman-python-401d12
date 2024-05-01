@@ -1,37 +1,44 @@
-# Lab: Data Visualization
+# LAB-14: Data visualization:
 
-## Overview
+In today lab; graphs are going to tell us the story. You will play a role of professional data analyst in X company. You should provide a quick insights about data by visualizing it in effective way.
 
-Today you'll be telling a story visually. Choose two datasets and visualize them as effectively as you can.
+# Steps:
+- Create a new notebook; name it as you want.
+- Make the notebook public.
+- Use the provided dataset => [datatset](./data.csv).
 
-## Feature Tasks and Requirements
+# Lab Requirements:
 
-- Select 2 [Kaggle data sets](https://www.kaggle.com/datasets).{:target="_blank"} that are suitable for the stories you want to tell.
-  - **Note** make sure the data set has csv file/s to download.
-- Optionally use dataset from another source.
-- Load the data you receive into a Pandas `DataFrame`.
-- Analyze dataset.
-- Verbalize your insights in Markdown cells.
-- Visualize your insights in several ways.
-  - Have at least two visualizations per data set.
-  - Use [Seaborn Example Gallery](https://seaborn.pydata.org/examples/index.html){:target="_blank"} for inspiration.
-- Notebook should have professional polish.
-  - In other words, imagine you are presenting it on the job.
+>1. Handle null values in your datasets; make sure to clean the data.
 
-### User Acceptance Tests
 
-- No automated tests
+> Check if there are any outliers by visualizing them.
 
-## Configuration
 
-- Create an account (if you haven't already) at [Kaggle](https://www.kaggle.com/){:target="_blank"}.
-- Create two new Notebooks named as you choose.
-- Click Share button and select Public access.
-- Submit the Public URLs for Noteboks.
+ ```Outlier``` is a value located far away from the mean.
 
-## Stretch Goals
+>3. Show the  correlation coefficients between out variables.
+- ```correlation coefficient``` describes how one variable moves in relation to another.
 
-- Use a different visualization library.
-  - E.g. Plotly, Bokeh.
-- Stream data from url instead of csv file.
-- Join a Kaggle competition.
+>4. Visualize the following:
+
+   a. The relationship between the degree with income level.
+
+   b. Is there any relationship between the degree and Marital_Situation.
+
+   c. The relationship between the income level and having child status.
+
+>5. Which product that customers purchase more?. Use a pie chart to present it.
+
+>6. Add your conclusion in markdown language. 
+
+## Testing Requirements
+- No required testing for today.
+
+## Stretch Goals:
+1. Handle outliers by using your strategy.
+2. Add a linear regression to your notebook and conclude findings in markdown language.
+3. Check if are there any patterns or anomalies in the data?
+
+## Submission Instructions
+- Submit the URL of your Notebook.

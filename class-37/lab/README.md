@@ -1,47 +1,38 @@
-# Lab: Leveling up Front End with React, Next.js & TailwindCSS
+# LAB-01: Lab Topic
 
-## Overview
+- A summary of the lab of the day
 
-React is great! And though it does A LOT, it's not a full framework. In other words, many common tasks are not handled out of the box by React. So it's up to us devs to make some decisions about how to use React in combination with other tools.
+## Steps
+1. Please follow the below steps as an example.
+1. Create a new repo on Github called `401-whiteboard-backend` , then set it up based on the following structure.
+    
+```text
+├── __tests__
+├── models
+    ├── index.js
+│   ├── post.model.js
+├── routes
+│   ├── post.route.js
+├── error-handlers
+│   ├── 500.js
+│   ├── 404.js
+├── index.js
+├── server.js
+├── package.json
+├── .env
+├── .eslintrc.json
+├── .gitignore
+```
+2. Work on a `lab-01` branch.
+3. After completing the lab, create a PR from your `lab-01` branch to `main` then merge your code.
+4. Deploy your server on Heroku from `main` branch.
 
-One great "stack" is to use Next.js (which builds on top of React) and style with Tailwind.
+## Lab Requirements
+- Add the lab requirements in details
 
-Your job is to create a `Cookie Stand Admin` app using [Next.js](https://nextjs.org/){:target="_blank"} and style using [Tailwind CSS](https://tailwindcss.com/){:target="_blank"}.
+## Testing Requirements
+- Add the testing requirements if applied
 
-## Feature Tasks and Requirements
 
-- The `spec` for lab is screen shot of [Cookie Stand Admin Version 1](./cookie-stand-admin-version-1.png){:target="_blank"}
-- `pages/Index.js` should...
-  - Have `<Head>` component with page title set to `Cookie Stand Admin`
-  - Have a `<header>` component that matches spec.
-  - Have a `<main>` component containing `<form>` and a placeholder component showing JSON string of last created Cookie Stand.
-  - Have a `<footer>` component that matches spec.
-- Style app using TailwindCSS utility classes.
-
-## Implementation Notes
-
-- Initialize Next.js project with the following command.
-> `npx create-next-app@latest --js --no-app`
-- **NOTE**: there is no need to create a containing folder.
-- Name your project `cookie-stand-admin`
-- Accept defaults for remaining options.
-- Strip out unused files
-  - The app won't break if they get left in, but a good practice to remove stuff you're not using.
-- Pro tips:
-  - [Tailwind CSS Extension Pack](https://marketplace.visualstudio.com/items?itemName=andrewmcodes.tailwindcss-extension-pack){:target="_blank"}
-  - [React, Etc. Snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets){:target="_blank"}
-
-### User Acceptance Tests
-
-No testing required.
-
-## Configuration
-
-Refer to [Next Lab Submission Instructions](https://github.com/codefellows/code-401-python-guide/blob/main/reference/submission-instructions/labs/README-NEXT){:target="_blank"} for detailed instructions.
-
-### Stretch Goals
-
-- Refactor to move components to own functions.
-- Refactor to move components to own files.
-- Add more styling
-- Link to another page within the app
+## Submission Instructions
+- Add the submission instructions

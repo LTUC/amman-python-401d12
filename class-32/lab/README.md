@@ -1,58 +1,68 @@
-# Lab: Permissions & Postgresql
+# LAB-32: Django Custom Permission 
 
-## Overview
+- you are required to do a CRUD app that have a custom permission so anyone who own the item he can update and delete it  
 
-Let's move our site closer to production grade by adding Permissions and Postgresql Database.
+## Steps
+1. Please follow the below steps as an example.
+2. Create a new repo on Github and name it \<your project name> ,then set it up based on the following structure.
+    
+```text
+.
+├── things_project
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── db.sqlite3
+├── manage.py
+└── things_app
+    ├── __init__.py
+    ├── __pycache__
+    ├── admin.py
+    ├── apps.py
+    ├── migrations
+    ├── models.py
+    ├── permissions.py
+    ├── serializers.py
+    ├── tests.py
+    ├── urls.py
+    └── views.py
+```
+2. Work on a `lab-32` branch.
+3. After completing the lab, create a PR from your `lab-32` branch to `main` then merge your code.
 
-## Feature Tasks and Requirements
 
-## Features - General
+## Lab Requirements
 
-- You have been supplied with two demos, each presenting a key new feature.
-  - One demonstrates how to restrict access to portions of your APIs data.
-  - The other demonstrates switching over to using `postgres` vs `sqlite`
-- Your job is to merge the functionality of both demos.
-- Customize your project to use different application features/models than what was used in demos.
+- update your README with your name ,date and description of your project   
+- you should do a CRUD app using restfullAPIs
 
-## Features - Django REST Framework
+- your model should contain the user as a foreign key 
+- your list api can be viewed and edited by just authenticated people 
+- do a custom permission (IsOwnerOrReadOnly) for your app
+    - user can delete or update his own things 
+    - user can not delete or update other user work 
 
-- Make your site a DRF powered API as you did in previous lab.
-- Adjust project's permissions so that only authenticated user's have access to API.
-- Add a custom permission so that only appropriate users can update or delete it.
-  - Exactly what this means will depend on your application, so if you have any questions about "appropriate users" means reach out to TA/Instructor.
-- Add ability to switch user's directly from browsable API.
+- you should implement docker and docker compose in your app  
+- your database should be set to be postgres 
 
-## Features - Docker
 
-- **NOTE** Refer to demo for built out `Dockerfile` and `docker-compose.yml` examples.
-- create `Dockerfile` based off `python:3.10-slim`
-- create `docker-compose.yml` to run Django app as a `web` service.
-- enter `docker compose up --build` to start your site.
-- add `postgres` as a service
-  - Note: It is not required to include a volume so that data can persist when container is shut down.
-- Go to browsable api and confirm site properly restricts users based on their permissions.
+## Testing Requirements
 
-## Stretch Goals
+- test model
+- test list api
+- test auth required to view the list
+- test your custom permission IsOwnerOrReadOnly
 
-- Try different permission levels, including custom ones.
-- Figure out how to directly access postgres running inside container. Hint: it will take research.
-- Add a `volume` to persist data when container is shut down.
 
-## Implementation Notes
+## Submission Instructions
 
-- You should **NOT** be running Postgres directly on host machine.
-  - This means that operations like `createsuperuser` and `migrate` will need to happen inside the container.
-  - For example...
-    - > docker compose run web python manage.py migrate
-    - or:
-    - > docker compose run web bash
+- submit your PR link
 
-### User Acceptance Tests
+- answer the following questions in the comment section 
 
-Adjust any tests provided in demo to work with your project.
+    1) what is you reflection about the lab 
+    2) how much time does it take you to finish the lab
 
-## Configuration
-
-Name GitHub repo `drf-api-permissions-postgres`.
-
-Refer to [Lab Submission Instructions](../../../reference/submission-instructions/labs/){:target="_blank"} for detailed instructions.

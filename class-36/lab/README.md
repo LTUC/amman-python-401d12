@@ -1,24 +1,38 @@
-# Lab: Computational Thinking
+# LAB-01: Lab Topic
 
-## Overview
+- A summary of the lab of the day
 
-Coding Interviews are coming your way. Time to memorize 15,000 interview questions?
+## Steps
+1. Please follow the below steps as an example.
+1. Create a new repo on Github called `401-whiteboard-backend` , then set it up based on the following structure.
+    
+```text
+├── __tests__
+├── models
+    ├── index.js
+│   ├── post.model.js
+├── routes
+│   ├── post.route.js
+├── error-handlers
+│   ├── 500.js
+│   ├── 404.js
+├── index.js
+├── server.js
+├── package.json
+├── .env
+├── .eslintrc.json
+├── .gitignore
+```
+2. Work on a `lab-01` branch.
+3. After completing the lab, create a PR from your `lab-01` branch to `main` then merge your code.
+4. Deploy your server on Heroku from `main` branch.
 
-No! It's time to focus on the core problem solving techniques that can solve any interview question.
+## Lab Requirements
+- Add the lab requirements in details
 
-## Feature Tasks and Requirements
+## Testing Requirements
+- Add the testing requirements if applied
 
-View these videos and start practicing.
 
-- [Top 10 Algorithm Techniques for Coding Interview Part 1](https://www.youtube.com/watch?v=r1MXwyiGi_U){:target="_blank"}
-- [Top 10 Algorithm Techniques for Coding Interview Part 2](https://www.youtube.com/watch?v=zHczhZn-z30){:target="_blank"}
-- [5 Things to avoid in Coding Interviews](https://www.youtube.com/watch?v=FowJZqVggCU){:target="_blank"}
-
-## Submission Notes
-
-- Submission is image of white board for 2 (or more) code challenges of your choosing.
-  - The challenges should relate to the Top 10 list in videos.
-  - In other words, select challenges that best align with your Coding Interview needs.
-  - Choose from LeetCode, Exercism, HackerRank, etc.
-- No code files accepted. All work should be done within whiteboard.
-- Your white board tool is up to you.
+## Submission Instructions
+- Add the submission instructions

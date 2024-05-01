@@ -1,48 +1,79 @@
-# Lab: Web Scraping
+# LAB-01: ًWeb Scraping
 
-## Overview
+- you are reqired to create your own api using webscraping
 
-It's wonderful when someone has gone to the effort to expose their site's data through an API.
-
-But not everyone can (or wants to) do that.
-
-No problem. Let's code up a web scraper that can automate the process of manually using the site.
-
-## Feature Tasks and Requirements
-
-- Scrape a Wikipedia page of your choosing and record which passages need citations.
-  - E.g. [History of Mexico](https://en.wikipedia.org/wiki/History_of_Mexico){:target="_blank"} has a few "citations needed".
-- Your web scraper should report the number of citations needed.
-- Your web scraper should identify those cases AND include the relevant passage.
-  - E.g. Citation needed for "lorem spam and impsum eggs"
-  - Consider the "relevant passage" to be the parent element that contains the passage, often a paragraph element.
-
-## Implementation Notes
-
-- Module must be named **scraper.py**
-- Create function named **get_citations_needed_count**
-  - takes in a url string and returns an integer.
-- Create function named **get_citations_needed_report**
-  - takes in a url string and returns a report string
-  - the string should be formatted with each citation listed in the order found.
-  - For example:
-
+## Steps
+1. Please follow the below steps as an example.
+1. Create a new repo on Github called `401-Web-Scraping` , then set it up based on the following structure.
+    
 ```text
-The first people to settle in Mexico encountered a climate far milder than the current one. In particular, the Valley of Mexico contained several large paleo-lakes (known collectively as Lake Texcoco) surrounded by dense forest. Deer were found in this area, but most fauna were small land animals and fish and other lacustrine animals were found in the lake region.[citation needed][6] Such conditions encouraged the initial pursuit of a hunter-gatherer existence.
-
-The Mexica people arrived in the Valley of Mexico in 1248 AD. They had migrated from the deserts north of the Rio Grande[citation needed] over a period traditionally said to have been 100 years. They may have thought of themselves as the heirs to the prestigious civilizations that had preceded them.[citation needed] What the Aztec initially lacked in political power, they made up for with ambition and military skill. In 1325, they established the biggest city in the world at that time, Tenochtitlan.
-
-etc.
+├── scrape.py
+├── book_api.json
+├── .env
+├── .gitignore
 ```
 
-## Stretch Goals
+2. Work on a `lab-17` branch.
+3. After completing the lab, create a PR from your `lab-17` branch to `main` then merge your code.
 
-- Organize the needed citations by section (i.e. the parent heading tag)
-  - Name additional function **get_citations_needed_by_section**
-- Automatically do a citation scan for any links from the main section of wikipedia page.
 
-## Configuration
+## Lab Requirements
+- you are required to web scrape this page [books](http://books.toscrape.com/)
 
-Create a project named `web-scraper`.
+- you should choose at least three categories from the left side types 
 
-Refer to [Lab Submission Instructions](../../../reference/submission-instructions/labs/){:target="_blank"} for detailed instructions.
+![categories](../assets/lab-17-categories.png)
+
+- you should extact info from each category so you will get this api as a result
+
+**note : save the list of books on data key and each category in type key and make sure that you catch the attributes required from each book** 
+
+```json
+[
+  {
+    "data": [
+      {
+        "title": "Scott Pilgrim's Precious Little ...",
+        "rating": "Five",
+        "price": "\u00a352.29",
+        "availability": "In stock"
+      },
+      {
+        "title": "Tsubasa: WoRLD CHRoNiCLE 2 ...",
+        "rating": "One",
+        "price": "\u00a316.28",
+        "availability": "In stock"
+      },
+      .
+      .
+      .
+      {
+        "title": "Camp Midnight",
+        "rating": "Four",
+        "price": "\u00a317.08",
+        "availability": "In stock"
+      }
+    ],
+    "type": "Sequential Art"
+  },
+  .
+  .
+  .
+  ]
+```
+
+## Stretch goal
+
+    - rating in the above api is a stretch goal
+    
+    - you can create a function that finds the count of posts in your api that have a certain rating 
+
+
+## Submission Instructions
+
+- you should share your pull request link 
+
+- answer the following questions in the comment section 
+
+    1) what is you reflection about the lab 
+    2) how much time does it take you to finish the lab

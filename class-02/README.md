@@ -1,40 +1,47 @@
-# Modules and Tests
+# Class02 - Modules and Testing
 
 ## Overview
 
-Today we learn about Test Driven Development with PyTest, and deepen our understanding of Python modules.
+This class is about modules and testing. We will cover the following topics:
+
+- Modules (difference between modules and packages)
+
+- Testing (unit testing, functional testing)
+
+- recursion 
+
+
+
 
 ## Class Outline
 
-<!-- To Be Completed By Instructor -->
 - Code Review
-- [Modules, Packages, Importing, and Namespaces]
-- [Python Containers and Looping]
-- [Fun with Python Strings]
-- [PyTest and Test-Driven Development]
+
+- Modules, Packages, Importing, and Namespaces
+
+- PyTest and Test-Driven Development
+
+
+## Challenge Review
+
+
+## Lab Review
+
+[link](./lab/README.md)
+
+## Guided Research
+
+[link](./discussion/README.md)
+
+## Demo
+
+[link](./demo/README.md)
 
 ## Learning Objectives
 
-### Students will be able to
+- Students will be able to create modules in python.
+- Students will be able to use modules in their code.
+- Students will be able to test their code using the pytest module.
+- Students will be able to use recursion in their code.
 
-#### Describe and Define
 
-- A Python module
-- Difference between module and package
-- Python namespaces
-- Test Driven Development
-- Red, Green, Refactor
-
-#### Execute
-
-- Run PyTest
-- Selectively skip tests
-- Debug failing tests
-
-## Helpful Resources
-
-<!-- links -->
-[Modules, Packages, Importing, and Namespaces]: ./notes/modules.md
-[Python Containers and Looping]: ./notes/containers.md
-[Fun with Python Strings]: ./notes/strings.md
-[PyTest and Test-Driven Development]: ./notes/pytest_tdd.md

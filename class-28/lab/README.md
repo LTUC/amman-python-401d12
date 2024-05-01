@@ -1,55 +1,108 @@
-# Lab: Django CRUD and Forms
+# LAB-28: CRUD Books Shop 
 
-## Overview
+- you are required to make the previous `lab 23` as CRUD app and deploy it using docker
 
-Add full CRUD functionality to your bag of tricks by building a Django project that allows Creating, Reading, Updating and Deleting.
+## Steps
+1. Please follow the below steps as an example.
+2. Create a new repo on Github called `CRUD-books-shop` , then set it up based on django structue
+    
+```text
+.
+├── Dockerfile
+├── README.md
+├── book_shop_project
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── book
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── docker-compose.yml
+├── manage.py
+├── requirements.txt
+└── template
+    ├── base.html
+    ├── book-create.html
+    ├── book-delete.html
+    ├── book-detail.html
+    ├── book-list.html
+    ├── book-update.html
+    └── home.html
+```
+2. Work on a `lab-28` branch.
+3. After completing the lab, create a PR from your `lab-28` branch to `main` then merge your code.
 
-## Feature Tasks and Requirements
 
-- Create `snacks_crud_project` Django project
-- Create `snacks` app
-- Create `Snack` model
-  - title field
-  - purchaser field
-  - description field
-  - Register model with admin
-- Create `SnackListView` that extends appropriate generic view
-  - associated url path is an empty string
-- Create `SnackDetailView` that extends appropriate generic view
-  - associated url path is `<int:pk>/`
-- Create `SnackCreateView` that extends appropriate generic view
-  - associated url path is `create/`
-- Create `SnackUpdateView` that extends appropriate generic view
-  - associated url path is `<int:pk>/update/`
-- Create `SnackDeleteView` that extends appropriate generic view
-  - associated url path is `<int:pk>/delete/`
-- Add urls to support all views, with appropriate names
-- Add templates to support all views
-- Add navigation links in appropriate locations to access all pages
-- Make all necessary changes to project level files for project to run
-  - In other words, make it work
+## Lab Requirements
 
-## Implementation Notes
+- convert your previous `lab-23` into a CRUD app and deploy it using docker
 
-A lot of functionality is being added here. But it should still follow the "Django way." So when in doubt refer back to demo.
+- create django project that called book_shop_project
 
-## Stretch Goals
+- create django app called book
 
-- add multiple models
-- use an alternate test runner
-- add more advanced fields to models, e.g. created time stamp
-- add styling
+- you should have a book model that containes (author(FK),title , description, rating , publish_date)
 
-### User Acceptance Tests
 
-- Test all Views
-- Test Model
-  - string representation
-  - all fields
-- When in doubt on what to test refer to demo
+- create a CRUD views from the `book model` 
+    - note that each view should have its own template
 
-## Configuration
+- templates:
+    - home page: should have a url into the list page
+    - list page: should list all the books (each book title should be a link into the book detail page) and have a button to create a new book
+    - detail page: should have the details for a certain book and have 2 buttons one for update the book and another for delete the book 
+        - update the book: should redirect you to the details page again
+        - delete the book: should redirect you to the list page
 
-Create a virtual environment inside `snacks_crud`.
+- create the `requirements.txt` by this `pip freeze > requirements.txt`
+- add a `Dockerfile` and `docker-compose.yml` into your project. notice that those 2 files should be as the same level as your django project
 
-Refer to [Lab Submission Instructions](../../../reference/submission-instructions/labs/){:target="_blank"} for detailed instructions.
+```text
+Dockerfile content
+
+FROM python:3
+ENV BUILDKIT_PROGRESS=plain
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+RUN mkdir /code
+WORKDIR /code
+COPY requirements.txt /code/
+RUN pip install -r requirements.txt
+COPY . /code/
+```
+
+```text
+docker-compose file content
+
+version: "3.9"
+services:
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+```
+- add a beautifull style into your project <span style="color:yellow">Amaze Us 😎</span>
+
+
+## Testing Requirements
+
+- test all the CRUD views.
+
+## Submission Instructions
+
+- you should share your pull request link 
+
+- answer the following questions in the comment section 
+
+    1) what is you reflection about the lab 
+    2) how much time does it take you to finish the lab

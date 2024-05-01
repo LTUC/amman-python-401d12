@@ -1,58 +1,30 @@
-# Lab: Numpy Arrays
+# LAB-11: Sanfrancisco Salary
 
-## Overview
+- you are required to answer some questions regarding Sanfrancisco Salary dataset
 
-Today we'll be constructing chess boards like it's 1980.
+## Steps
 
-No prebuilt images, just the power of arrays and pixel art.
+1. create an account on [kaggle](https://www.kaggle.com/)
+2. you can find the notebook from [here](https://www.kaggle.com/code/hayalawansah/lab-11)
+3. select copy and edit notebook from the burger menu in the right top corner 
+4. change your notebook name to class-11-{your_name}
+5. solve the questions   
 
-## Feature Tasks and Requirements
 
-Your job is to render out chess boards with red and blue queens on them.
+## Lab Requirements
 
-We're keeping it really basic here so the only pieces are queens and each queen is represented by a blue or red square.
+- create a markdown cell at the beginning of your notebook with your name , the date of creation , title  and description of the dataset 
 
-Chess board is an 8 by 8 grid of alternating black and white squares. The queens are red and blue squares.
+- solve the provided notebook questions 
+- add 3 questions about this dataset and answer them 
 
-Each board will have one red and one blue queen at different coordinates. In addition to displaying the board you'll need to identify if the queens are "under attack" based on their coordinates.
 
-## Implementation Notes
+## Submission Instructions
 
-- Define a `ChessBoard` class
-- should contain an 8x8 grid
-  - Each cell in grid should have a color represented in RGB format.
-    - black = (0,0,0)
-    - white = (1,1,1)
-    - blue = (0,1,1)
-    - red = (1,.2,0)
-- should have `add_red` method that accepts a row and column as input which colors corresponding cell.
-- should have `add_blue` method that accepts a row and column as input which colors corresponding cell.
-- should have `render` method that displays the chess board on screen with red and blue shown in correct locations
-- should have `is_under_attack` method that return boolean if red is under attack by a blue piece horizontally, vertically or diagonally
-- Diagonal attacks can come from four directions. Make sure to handle all of them.
-- Render your board for each `is_under_attack` scenario:
-  - Horizontal (aka same row).
-  - Vertical (aka same column).
-  - Four Diagonals.
-  - A "Not Under Attack" scenario.
+- you should share your kaggle notebook link **make sure to make your notebook public**
 
-### User Acceptance Tests
+- answer the following questions in the comment section 
 
-- There are no acceptance tests required.
-- But Notebook should clearly show the various `is_under_attack` scenarios have been handled.
+    1) what is you reflection about the lab 
+    2) how much time does it take you to finish the lab
 
-### Stretch Goal
-
-- Enlarge the chessboard to allow for pixel art drawn pieces. 16x16 ought to be enough.
-- Add more attacking queens.
-- Add opacity to cell colors.
-
-## Configuration & Submission
-
-Kaggle is an excellent all around resource and has good, free notebook hosting.
-
-- Create account at [Kaggle](https://www.kaggle.com/){:target="_blank"}.
-- Create a new project by clicking `+ Create` button.
-- Name project `Chess Board`.
-- Click `Share` button and select `Public` access.
-- Submit the Public URL for Notebok.

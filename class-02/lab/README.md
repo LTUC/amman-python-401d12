@@ -1,55 +1,69 @@
-# Lab: Class 02 - Modules and Testing
+# LAB-02: Modules, Testing And Recursion
 
-## Overview
+This Lab will make you practice on modules and testing by write some functions and import them to another file to test them because as you learned today a module is a Python object with arbitrarily named attributes that you can bind and reference. Simply, a module is a file consisting of Python code. A module can define functions, classes and variables. A module can also include runnable code.
 
-The [Fibonacci Series](http://en.wikipedia.org/wiki/Fibbonaci_Series){:target="_blank"} is a numeric series starting with the integers 0 and 1. In this series, the next integer is determined by summing the previous two. This gives us:
+## Steps
+- Please follow the below steps as an example.
+ 
+1. Create a local git repo with root folder named `modules_and_testing`.
+2. Create a new repo on Github called `modules_and_testing`.
+3. Link your local and remote repositories
+4. then set it up based on the following structure.
+    
+```module_testing
+├── .venv
+├── module_name
+    ├── __init__.py
+│   ├── name.py
+├── test
+    ├── __init__.py
+│   ├── test_module_name.py
+├── .gitignore
+├── README.md
 
-```python
-0, 1, 1, 2, 3, 5, 8, 13, ...
+Please make sure don't use the names as its here its just an example.
 ```
+5- create a new branch and called it `factorial`.\
+6. Work on a `factorial` branch.\
+7. After completing the lab, create a PR from your `factorial` branch to `main` then merge your code.
 
-**Note** When asking for the `nth` number in series presume starting at zero.
 
-> fibonacci(0) == 0, fibonacci(1) == 1, fibonacci(2) == 1, etc.
+## Lab Requirements
 
-The [Lucas Numbers](http://en.wikipedia.org/wiki/Lucas_number){:target="_blank"} are a related series of integers that start with the values 2 and 1 rather than 0 and 1. The resulting series looks like this:
+- Create a file `factorial_module.py` and place it inside the factorial module that called `factorial_module`.
+- Add a file `test_factorial.py`, place it inside `test` module and write your tests inside it.
++ Create two functions for `factorial`, this functions shuold take one parameter `n`, and the number must be positeve number. The functions must return the factorial of the `n` number.\
+a. first one is called factorial_iterative it must use loop to get factorial.\
+b. second one is called factorial_recursion it must use recursion to get factorial.\
+<span style="background:#669933">Hint: </span> The factorial of a positive integer n is the product of all positive integers less than or equal to n.\
+For example, `factorial(10) = 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1`.
 
-```python
-2, 1, 3, 4, 7, 11, 18, 29, ...
-```
 
-## Configuration
 
-- Create a local git repo with root folder named `math-series`.
-- Create new repository named `math-series`
-- Link your local and remote repositories.
 
-## Feature Tasks and Requirements
 
-- Create a module `series.py`.
-- Add a file `test_series.py` to your repository. As you work on the tasks below, use TDD practices. Write tests first, then implement code. Make small changes with many cycles of Red-Green-Refactor
 
-_This is not an overly long assignment, so take the time to do the testing right._
 
-- Create a function called `fibonacci`. The function should have one parameter `n`. The function should return the nth value in the fibonacci series. You may implement the function using recursion or iteration. If you are feeling particularly frisky, do both as separate functions.
+### stretch goal
 
-- Ensure that your function(s) has a well-formed docstring
+2. Create a clumsy factorial function and called it clumsy that take one parameter and return the clumsy factorial of it.\
+what is clumsy factorial:
+We make a clumsy factorial using the integers in decreasing order by swapping out the multiply operations for a fixed rotation of operations with multiply `*`, divide `/`, add `+`, and subtract `-` in this order.
 
-- In your `series.py` module, add a new function `lucas` that returns the nth value in the lucas numbers Again, you may use recursion or iteration, or both. Again, ensure that your function has a well-formed docstring.
+For example, `clumsy(10) = 10 * 9 / 8 + 7 - 6 * 5 / 4 + 3 - 2 * 1`.\
+<span style="background:#669933">Hint :</span> However, these operations are still applied using the usual order of operations of arithmetic. We do all multiplication and division steps before any addition or subtraction steps, and multiplication and division steps are processed left to right.\
+Additionally, the division that we use is floor division such that `10 * 9 / 8 = 90 / 8 = 11`.
 
-- Both the fibonacci series and the lucas numbers are based on an identical formula. Add a third function called `sum_series` with one required parameter and two optional parameters. The required parameter will determine which element in the series to print. The two optional parameters will have default values of 0 and 1 and will determine the first two values for the series to be produced.
 
-- Calling this function with no optional parameters will produce numbers from the fibonacci series. Calling it with the optional arguments 2 and 1 will produce values from the lucas numbers. Other values for the optional parameters will produce other series. Again, you may use recursion or iteration, or both. Again, ensure that your function has a well-formed docstring.
+## Testing Requirements
+- Create a three test for factorial_iterative function.
+- Create a three test for factorial_recursion function.
+- Create a five test for clumsy function.
 
-- Add your `series.py` and `test_series.py` modules to your repository and commit frequently while working on your implementation. Include good commit messages that explain concisely both what you are doing and why.
-
-## Implementation Notes
-
-### User Acceptance Tests
-
-- Your test requirements for today are straight forward. Use Test Driven Development to verify correct behavior as you build.
-- Test all three functions.
 
 ## Submission Instructions
-
-Refer to the the [Lab Submission Instructions](../../../reference/submission-instructions/labs/){:target="_blank"} for the complete lab submission process and expectations
+- Submit your pull request.
+- Tell us if you faced any issue.
+- Tell us the time you used to solved the lab. 
+- Ensure that your functions has a well-formed docstring.
+- Ensure you have a `README.md` file that explain your lab. 

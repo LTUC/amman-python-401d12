@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Pets List</h1>
+
+    {%for pet in pets_objs %}
+
+        <h3>Name <a href="{% url 'pet_details' pet.pk %}">{{ pet.name }}</a></h3>
+
+        {% comment %} <p>Owner : {{ pet.owner }}</p>
+        <p>Des : {{ pet.des }}</p>
+        <p>Breed : {{ pet.breed }}</p> {% endcomment %}
+    {% endfor%}
+
+{% endblock content %}

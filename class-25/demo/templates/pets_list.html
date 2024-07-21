@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Pets List</h1>
+
+    <button><a href="{% url 'create_pet'%}">Create</a></button>
+
+    {%for pet in pets_objs %}
+
+        <h3>Name <a href="{% url 'pet_details' pet.pk %}">{{ pet.name }}</a></h3>
+
+        <button><a href={% url 'pet_update' pet.pk %}>Update</a></button>
+        <button><a href={% url 'pet_delete' pet.pk %}>Delete</a></button>
+
+        {% comment %} <p>Owner : {{ pet.owner }}</p>
+        <p>Des : {{ pet.des }}</p>
+        <p>Breed : {{ pet.breed }}</p> {% endcomment %}
+    {% endfor%}
+
+{% endblock content %}

@@ -1,4 +1,4 @@
-# LAB-29: Django REST Framework
+# LAB-26: Django REST Framework
 Learn how you can use Django REST Framework to create API and containerize it with Docker
 ## Steps and Requirements
 *  Create a Django project and called cars_store.

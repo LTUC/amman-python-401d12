@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title%}HomePage{%endblock title%}
+
+{%block content%}
+<h1>List of Uni</h1>
+
+<div class="container px-4 text-center">
+    <div class="row gx-5">
+        {% for uni in universities%}
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">{{uni.name}}</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">{{uni.country}}</h6>
+                    <p class="card-text">{{uni.state_province}}</p>
+                    <a href="{{uni.web_pages}}" class="card-link">web page</a>
+                    </div>
+                </div>
+                </div>
+
+            {%endfor%}
+    </div>
+</div>
+
+{%endblock%}
